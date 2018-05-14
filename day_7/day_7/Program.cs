@@ -19,6 +19,9 @@ namespace day_7
                 
             }
             */
+
+            // IEVADI SKAITLI UN PROGRAMMA SASKAITIS SKAUTLU SUMMU ..... PIEVERST UZMANIBU MAINIGAJAM .....
+            // LAI DABUTU SAKUMA SUMMU..... MAINIGAJAM JABUT IR PIRMS CIKLA
             Console.WriteLine("Ievadiet skaitli: ");
 
             string konv = Console.ReadLine();
@@ -27,8 +30,9 @@ namespace day_7
 
             for (int i = 0; i <= ievade; i++)
             {
+                int oldVertiba = rez;
                 rez = rez + i;
-                Console.WriteLine(rez);
+                Console.WriteLine(oldVertiba + "+" + i + "=" + rez);
 
             }
 
