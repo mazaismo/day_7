@@ -6,11 +6,11 @@ namespace day_7
     {
         static void Main(string[] args)
         {
-            ReizTabula();
+            /*ReizTabula();
 
             /*  FOR FUNKCIJAS PIEMERS
-             **/ 
-           
+             **/
+
 
             /*
             for (int i = 1; i <=10; i++)
@@ -19,9 +19,12 @@ namespace day_7
                 
             }
             */
+            Zvaigzne();
+
+
             Console.ReadLine();
         }
-
+        /*
         static void ReizTabula()
         {
             Console.WriteLine("Ievadiet skaitli: ");
@@ -32,8 +35,19 @@ namespace day_7
             {
                 Console.WriteLine(i + "*" + skaitlis + "=" + i * skaitlis);
             }
+            */
 
+        static void Zvaigzne( )
+        {
+            string zvaigzne = "";
+            for (int i = 1; i < 4; i++)
+            {
+                zvaigzne = zvaigzne + "*";
+                Console.WriteLine(zvaigzne);
+            }
+                
+
+            
         }
     }
-
 }
