@@ -19,11 +19,23 @@ namespace day_7
                 
             }
             */
-            Zvaigzne();
+            Console.WriteLine("Ievadiet skaitli: ");
+
+            string konv = Console.ReadLine();
+            int ievade = Convert.ToInt16(konv);
+            int rez = 0;
+
+            for (int i = 0; i <= ievade; i++)
+            {
+                rez = rez + i;
+                Console.WriteLine(rez);
+
+            }
 
 
             Console.ReadLine();
         }
+
         /*
         static void ReizTabula()
         {
